@@ -1,0 +1,353 @@
+.timelinePanel{
+
+  width: 100%;
+
+  height: 180px;
+
+  background: #050816;
+
+  border-top: 1px solid #172036;
+
+  display: flex;
+
+  flex-direction: column;
+
+  overflow: hidden;
+
+}
+
+
+
+/* =========================
+   TOP
+========================= */
+
+.timelineTop{
+
+  height: 52px;
+
+  min-height: 52px;
+
+  padding: 0 18px;
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: space-between;
+
+  border-bottom: 1px solid #172036;
+
+  background: #081120;
+
+}
+
+
+
+/* =========================
+   CONTROLS
+========================= */
+
+.timelineControls{
+
+  display: flex;
+
+  align-items: center;
+
+  gap: 12px;
+
+}
+
+
+
+.timelinePlay{
+
+  height: 36px;
+
+  padding: 0 18px;
+
+  border: none;
+
+  border-radius: 10px;
+
+  background: #6366f1;
+
+  color: white;
+
+  font-size: 13px;
+
+  font-weight: 700;
+
+  cursor: pointer;
+
+  transition: 0.2s;
+
+}
+
+
+
+.timelinePlay:hover{
+
+  transform: translateY(-1px);
+
+}
+
+
+
+.timelinePlay.playing{
+
+  background: #ef4444;
+
+}
+
+
+
+/* =========================
+   INFO
+========================= */
+
+.timelineInfo{
+
+  display: flex;
+
+  align-items: center;
+
+  gap: 18px;
+
+  color: #cbd5e1;
+
+  font-size: 12px;
+
+  font-weight: 600;
+
+}
+
+
+
+/* =========================
+   TRACK AREA
+========================= */
+
+.timelineTrackArea{
+
+  flex: 1;
+
+  position: relative;
+
+  overflow: hidden;
+
+  background: #020617;
+
+  cursor: pointer;
+
+}
+
+
+
+/* =========================
+   GRID
+========================= */
+
+.timelineGrid{
+
+  position: absolute;
+
+  inset: 0;
+
+}
+
+
+
+/* =========================
+   MARKERS
+========================= */
+
+.timelineMarker{
+
+  position: absolute;
+
+  top: 0;
+
+  bottom: 0;
+
+  width: 1px;
+
+  background: rgba(255,255,255,0.05);
+
+}
+
+
+
+.timelineMarker span{
+
+  position: absolute;
+
+  top: 8px;
+
+  left: 6px;
+
+  color: #64748b;
+
+  font-size: 10px;
+
+}
+
+
+
+/* =========================
+   CURSOR
+========================= */
+
+.timelineCursor{
+
+  position: absolute;
+
+  top: 0;
+
+  bottom: 0;
+
+  width: 3px;
+
+  background: #ff3b3b;
+
+  z-index: 10;
+
+  box-shadow: 0 0 10px rgba(255,59,59,0.7);
+
+}
+
+
+
+/* =========================
+   TRACK
+========================= */
+
+.timelineTrack{
+
+  position: absolute;
+
+  left: 0;
+
+  right: 0;
+
+  top: 45px;
+
+  height: 50px;
+
+  display: flex;
+
+  align-items: center;
+
+  padding: 0 16px;
+
+  border-top: 1px solid #172036;
+
+  background: rgba(15,23,42,0.7);
+
+}
+
+
+
+/* =========================
+   TRACK LABEL
+========================= */
+
+.timelineTrackLabel{
+
+  color: white;
+
+  font-size: 13px;
+
+  font-weight: 700;
+
+}
+
+
+
+/* =========================
+   RESPONSIVE
+========================= */
+
+@media(max-width:900px){
+
+  .timelinePanel{
+
+    height: 220px;
+
+  }
+
+
+
+  .timelineTop{
+
+    flex-direction: column;
+
+    justify-content: center;
+
+    align-items: flex-start;
+
+    gap: 10px;
+
+    height: auto;
+
+    padding: 12px;
+
+  }
+
+
+
+  .timelineInfo{
+
+    flex-wrap: wrap;
+
+    gap: 10px;
+
+  }
+
+}
+
+.timelineKeyframe{
+
+  position:absolute;
+
+  width:14px;
+  height:14px;
+
+  background:#f59e0b;
+
+  border-radius:4px;
+
+  top:50%;
+
+  transform:
+    translateY(-50%)
+    rotate(45deg);
+
+  cursor:pointer;
+
+  transition:0.2s;
+
+}
+
+
+
+.timelineKeyframe:hover{
+
+  transform:
+    translateY(-50%)
+    rotate(45deg)
+    scale(1.15);
+
+}
+
+
+
+.timelineKeyframe.selected{
+
+  background:#22c55e;
+
+  box-shadow:
+
+    0 0 10px #22c55e;
+
+}

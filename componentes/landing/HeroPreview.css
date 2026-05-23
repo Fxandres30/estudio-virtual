@@ -1,0 +1,136 @@
+.cinemaWindow{
+
+  width:100%;
+
+  max-width:620px;
+
+  border-radius:30px;
+
+  overflow:hidden;
+
+  background:#0f172a;
+
+  border:
+
+    1px solid
+    rgba(255,255,255,.06);
+
+  box-shadow:
+
+    0 30px 80px
+    rgba(0,0,0,.5);
+}
+
+.windowTop{
+
+  width:100%;
+
+  height:60px;
+
+  display:flex;
+
+  align-items:center;
+
+  justify-content:space-between;
+
+  padding:0 24px;
+
+  border-bottom:
+
+    1px solid
+    rgba(255,255,255,.05);
+}
+
+.dots{
+
+  display:flex;
+
+  gap:10px;
+}
+
+.dots span{
+
+  width:12px;
+
+  height:12px;
+
+  border-radius:50%;
+
+  background:#334155;
+}
+
+.scenePreview{
+
+  position:relative;
+
+  height:420px;
+
+  background:
+
+    linear-gradient(
+      180deg,
+      #111827,
+      #020617
+    );
+}
+
+.cameraHud{
+
+  position:absolute;
+
+  top:20px;
+
+  left:20px;
+
+  display:flex;
+
+  align-items:center;
+
+  gap:10px;
+
+  color:red;
+
+  font-weight:700;
+}
+
+.floatingCard{
+
+  position:absolute;
+
+  padding:16px 20px;
+
+  border-radius:18px;
+
+  background:
+    rgba(255,255,255,.06);
+
+  backdrop-filter:blur(20px);
+
+  border:
+
+    1px solid
+    rgba(255,255,255,.06);
+
+  color:white;
+}
+
+.floatingOne{
+
+  top:120px;
+
+  left:40px;
+}
+
+.floatingTwo{
+
+  bottom:100px;
+
+  right:40px;
+}
+
+.floatingThree{
+
+  bottom:40px;
+
+  left:60px;
+}

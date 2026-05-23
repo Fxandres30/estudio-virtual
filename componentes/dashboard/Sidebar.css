@@ -1,0 +1,71 @@
+.sidebar{
+
+  width:280px;
+
+  min-height:100vh;
+
+  padding:40px 24px;
+
+  border-right:
+
+    1px solid
+    rgba(255,255,255,.06);
+
+  background:#020617;
+}
+
+.sidebarLogo{
+
+  color:white;
+
+  font-size:28px;
+
+  font-weight:800;
+}
+
+.sidebarMenu{
+
+  margin-top:50px;
+
+  display:flex;
+
+  flex-direction:column;
+
+  gap:14px;
+}
+
+.sidebarMenu button{
+
+  width:100%;
+
+  height:56px;
+
+  border:none;
+
+  border-radius:18px;
+
+  background:
+
+    rgba(255,255,255,.04);
+
+  color:#cbd5e1;
+
+  text-align:left;
+
+  padding:0 20px;
+
+  cursor:pointer;
+
+  transition:.3s;
+
+  font-size:15px;
+}
+
+.sidebarMenu button:hover{
+
+  background:
+
+    rgba(37,99,235,.18);
+
+  color:white;
+}

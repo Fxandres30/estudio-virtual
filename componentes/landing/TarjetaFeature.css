@@ -1,0 +1,53 @@
+.featureCard{
+
+  padding:42px;
+
+  border-radius:28px;
+
+  background:
+
+    rgba(255,255,255,.04);
+
+  border:
+
+    1px solid
+    rgba(255,255,255,.06);
+
+  backdrop-filter:blur(20px);
+
+  transition:.35s;
+}
+
+.featureCard:hover{
+
+  transform:
+    translateY(-8px);
+
+  border:
+
+    1px solid
+    rgba(37,99,235,.3);
+}
+
+.featureIcon{
+
+  font-size:44px;
+}
+
+.featureCard h3{
+
+  margin-top:24px;
+
+  font-size:26px;
+
+  color:white;
+}
+
+.featureCard p{
+
+  margin-top:18px;
+
+  color:#94a3b8;
+
+  line-height:1.8;
+}

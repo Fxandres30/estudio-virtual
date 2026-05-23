@@ -1,0 +1,46 @@
+.dashboardCard{
+
+  padding:34px;
+
+  border-radius:28px;
+
+  background:
+
+    rgba(255,255,255,.04);
+
+  border:
+
+    1px solid
+    rgba(255,255,255,.06);
+
+  cursor:pointer;
+
+  transition:.35s;
+}
+
+.dashboardCard:hover{
+
+  transform:
+    translateY(-8px);
+
+  border:
+
+    1px solid
+    rgba(37,99,235,.4);
+}
+
+.dashboardCard h3{
+
+  color:white;
+
+  font-size:26px;
+}
+
+.dashboardCard p{
+
+  margin-top:18px;
+
+  color:#94a3b8;
+
+  line-height:1.7;
+}

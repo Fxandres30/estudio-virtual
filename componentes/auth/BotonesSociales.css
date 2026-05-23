@@ -1,0 +1,48 @@
+.socialButtons{
+
+  display:flex;
+
+  flex-direction:column;
+
+  gap:14px;
+
+  margin:
+    34px 0;
+}
+
+.socialButtons button{
+
+  width:100%;
+
+  height:56px;
+
+  border:none;
+
+  border-radius:18px;
+
+  background:
+
+    rgba(255,255,255,.05);
+
+  border:
+
+    1px solid
+    rgba(255,255,255,.06);
+
+  color:white;
+
+  font-size:15px;
+
+  font-weight:600;
+
+  cursor:pointer;
+
+  transition:.3s;
+}
+
+.socialButtons button:hover{
+
+  background:
+
+    rgba(255,255,255,.08);
+}

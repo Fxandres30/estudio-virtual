@@ -1,0 +1,37 @@
+.secondaryButton{
+
+  height:58px;
+
+  padding:
+    0 28px;
+
+  border-radius:18px;
+
+  border:
+
+    1px solid
+    rgba(255,255,255,.08);
+
+  background:
+
+    rgba(255,255,255,.04);
+
+  color:white;
+
+  font-size:16px;
+
+  font-weight:600;
+
+  cursor:pointer;
+
+  backdrop-filter:blur(20px);
+
+  transition:.3s;
+}
+
+.secondaryButton:hover{
+
+  background:
+
+    rgba(255,255,255,.08);
+}

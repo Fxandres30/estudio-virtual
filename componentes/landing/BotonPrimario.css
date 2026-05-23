@@ -1,0 +1,19 @@
+.primaryButton{
+
+  background:#2563eb;
+
+  border:none;
+
+  color:white;
+
+  padding:16px 28px;
+
+  border-radius:14px;
+
+  cursor:pointer;
+
+  font-size:16px;
+
+  font-weight:600;
+
+}

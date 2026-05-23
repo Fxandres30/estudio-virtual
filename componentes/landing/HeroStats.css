@@ -1,0 +1,46 @@
+.heroStats{
+
+  display:flex;
+
+  gap:22px;
+
+  margin-top:60px;
+}
+
+.statCard{
+
+  width:160px;
+
+  padding:28px;
+
+  border-radius:24px;
+
+  background:
+
+    rgba(255,255,255,.04);
+
+  border:
+
+    1px solid
+    rgba(255,255,255,.06);
+
+  backdrop-filter:blur(20px);
+}
+
+.statCard h2{
+
+  font-size:36px;
+
+  font-weight:800;
+
+  color:white;
+}
+
+.statCard p{
+
+  margin-top:10px;
+
+  color:#94a3b8;
+
+  font-size:15px;
+}

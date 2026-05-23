@@ -1,0 +1,48 @@
+.topbar{
+
+  width:100%;
+
+  display:flex;
+
+  align-items:center;
+
+  justify-content:space-between;
+
+  margin-bottom:50px;
+}
+
+.topbar h2{
+
+  font-size:42px;
+
+  color:white;
+
+  font-weight:800;
+}
+
+.topbar p{
+
+  margin-top:10px;
+
+  color:#94a3b8;
+}
+
+.newProjectButton{
+
+  height:56px;
+
+  padding:
+    0 26px;
+
+  border:none;
+
+  border-radius:18px;
+
+  background:#2563eb;
+
+  color:white;
+
+  font-weight:700;
+
+  cursor:pointer;
+}
